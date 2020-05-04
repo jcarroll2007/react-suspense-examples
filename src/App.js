@@ -5,8 +5,8 @@ import { PromiseExample } from './PromiseCatching'
 function App() {
   return (
     <>
-      {/* <PromiseExample /> */}
-      <ErrorExample />
+      <PromiseExample />
+      {/* <ErrorExample /> */}
     </>
   );
 }
