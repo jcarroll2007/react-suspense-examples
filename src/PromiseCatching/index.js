@@ -17,8 +17,7 @@ export class PromiseBoundary extends React.Component {
     render() {
         const { resolving } = this.state
         const { fallback, children } = this.props
-        // 4) The error boundary renders whatever it needs to to give the user
-        // contextual information on what's going on.
+
         if (resolving) return fallback;
         return children;
     }
